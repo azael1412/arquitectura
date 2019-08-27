@@ -1,0 +1,40 @@
+-proyect, portfolio o clients
+photo
+name
+category
+description
+
+-ubication:
+url
+address
+email
+telephone
+twitter_url
+facebok_url
+linkedin_url
+instagram_url
+-slider--puede que no
+
+-contact:
+name
+email
+subjecct
+message
+-blog--puede que no
+-testimonial(puede que no vaya)
+
+-team:
+photo
+name
+job
+facebok_url
+twitter_url
+linkedin_url
+
+
+
+http://apaloosaarquitectos.com/
+banco de imagenes
+https://pixabay.com
+//tema de diseño de pagina
+videos/regna
