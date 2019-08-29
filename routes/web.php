@@ -36,12 +36,12 @@ Route::middleware(['auth'])->group(function () {
 	Route::get('roles/{role}/edit', 'RoleController@edit')->name('roles.edit')
 		->middleware('permission:roles.edit');
     //Users
-    Route::post('users/store', 'UserController@store')->name('users.store')
-		->middleware('permission:users.create');
+    // Route::post('users/store', 'UserController@store')->name('users.store')
+	// 	->middleware('permission:users.create');
 	Route::get('users', 'UserController@index')->name('users.index')
         ->middleware('permission:users.index');
-    Route::get('users/create', 'UserController@create')->name('users.create')
-		->middleware('permission:users.create');
+    // Route::get('users/create', 'UserController@create')->name('users.create')
+	// 	->middleware('permission:users.create');
 	Route::put('users/{user}', 'UserController@update')->name('users.update')
 		->middleware('permission:users.edit');
 	Route::get('users/{user}', 'UserController@show')->name('users.show')
